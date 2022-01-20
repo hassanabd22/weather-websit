@@ -7,9 +7,6 @@
 body {
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    background-image: url("https://img.freepik.com/free-photo/raindrops-window-with-blue-sky_53876-142999.jpg?size=626&ext=jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100vh;
     color: rgb(198, 231, 240); 
     display: flex;
@@ -63,4 +60,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+button {
+    padding: 10px 30px;
+    border-color: #444;
+    color: white;
+    border-radius: 5px;
 }

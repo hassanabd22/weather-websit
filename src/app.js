@@ -7,6 +7,7 @@ const geocode = require('./utils/geocode');
 const forcast = require('./utils/forecast');
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 const puplicPath    = path.join(__dirname, '../puplic');
 const viewsPath     = path.join(__dirname, '../templates/views');
@@ -80,6 +81,6 @@ app.get('*', ( req, res ) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('The mesege is send')
+app.listen(port, () => {
+    console.log('The mesege is send' + port)
 })
