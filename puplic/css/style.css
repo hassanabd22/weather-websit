@@ -8,7 +8,7 @@ body {
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     height: 100vh;
-    color: rgb(198, 231, 240); 
+    color: #333; 
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -16,7 +16,7 @@ body {
 
 nav {
     background-color: #444;
-    height: 8vh;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +64,13 @@ footer {
 
 button {
     padding: 10px 30px;
-    border-color: #444;
+    background-color: #444;
     color: white;
     border-radius: 5px;
+    border: none;
+}
+
+input {
+    padding: 10px;
+
 }
